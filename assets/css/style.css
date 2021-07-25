@@ -30,7 +30,7 @@ body{
     justify-content: center;
     text-align: center;
     align-items: center;
-    padding: 20px;
+    padding: 18px;
 }
 .about_us, h2, p{
     color: #000;
@@ -44,6 +44,9 @@ body{
     justify-content: center;
     align-items: center;
     text-align: center;
-    padding: 20px;
+    padding: 19px;
 
+}
+#services h3, .p{
+    color: #fff;
 }
