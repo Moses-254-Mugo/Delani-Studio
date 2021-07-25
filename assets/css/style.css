@@ -83,3 +83,17 @@ body{
     align-items: center;
 
 }
+#project, #project2, #project3 ,#project4, #project5, #project6, #project7, #project8{
+    position: relative;
+    text-align: center;
+    color: orangered;
+    font-size: 40px;
+    font-weight: bold;
+}
+#prjName-1, #prjName-2, #prjName-3, #prjName-4, #prjName-5, #prjName-6, #prjName-7, #prjName-8{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    display: none;
+}
