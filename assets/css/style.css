@@ -64,3 +64,22 @@ body{
     font-weight: bold;
     font-size: 12px;
 }
+.thumbnail{
+    margin: 10px -23px ;
+    
+}
+.thumbnail img{
+    width: 80%;
+    height: auto;
+
+}
+.col-sm-3 img{
+    width: 85%;
+    height: auto;
+}
+.row{ 
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+}
