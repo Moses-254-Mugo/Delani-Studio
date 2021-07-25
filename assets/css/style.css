@@ -103,3 +103,14 @@ body{
     background-position: center center;
 
 }
+/* Style contact Container */
+#contact h3{
+    color: #fff;
+}
+input[type = "text"], input[type = "email"], #txtArea{
+    opacity: 0.8;
+    background: transparent;
+    border: 2px solid #fff;
+    box-sizing: border-box;
+    outline: none;
+    }
