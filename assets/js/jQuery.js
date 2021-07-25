@@ -114,8 +114,8 @@ $(document).ready(function(){
         $("#prjName-8").hide();
     });
 
-
-
-
-    // 
+    // function to show when form is submitted
+    $("form").submit(function(){
+        alert("Submitted the form");
+    })
 })
