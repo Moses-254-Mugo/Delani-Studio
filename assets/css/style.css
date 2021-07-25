@@ -7,7 +7,7 @@ body{
     background: url("/assets/images/backgrounds/h_img.jpg") no-repeat;
     background-size: cover;
     background-position: center center;
-    padding: 80px 50px;
+    padding: 60px 40px;
     width: 100%;
     height:auto;
     color: #fff;
@@ -21,7 +21,7 @@ body{
     color: #fff;
 }
 .icon_click{
-    margin-top: 18%;
+    margin-top: 15%;
 
 }
 /* Style About Container */
