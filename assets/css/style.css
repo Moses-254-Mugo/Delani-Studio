@@ -113,4 +113,8 @@ input[type = "text"], input[type = "email"], #txtArea{
     border: 2px solid #fff;
     box-sizing: border-box;
     outline: none;
-    }
+}
+#name::placeholder,#email::placeholder, #txtArea::placeholder{
+    color: #fff;
+    font-size: 19px;
+}
