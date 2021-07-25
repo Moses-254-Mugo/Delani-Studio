@@ -97,3 +97,9 @@ body{
     transform: translate(-50%, -50%);
     display: none;
 }
+#contact{
+    background: url("/assets/images/backgrounds/c_image.jpg") no-repeat;
+    background-size: cover;
+    background-position: center center;
+
+}
