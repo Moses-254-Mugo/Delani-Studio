@@ -125,3 +125,11 @@ input[type = "text"], input[type = "email"], #txtArea{
     color: #fff;
     
 }
+/* Style social media icon */
+.media{
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    align-items: center;
+    text-align: center;
+}
