@@ -12,3 +12,15 @@ body{
     height:auto;
     color: #fff;
 }
+.info{
+    margin-top: 5%;
+    font-weight: bold;
+}
+.info p{
+    font-size: 10px;
+    color: #fff;
+}
+.icon_click{
+    margin-top: 18%;
+
+}
