@@ -24,3 +24,14 @@ body{
     margin-top: 18%;
 
 }
+/* Style About Container */
+#about{
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    align-items: center;
+    padding: 20px;
+}
+.about_us, h2, p{
+    color: #000;
+}
