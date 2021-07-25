@@ -50,3 +50,19 @@ body{
 #services h3, .p{
     color: #fff;
 }
+#What_We_do{
+    margin-top: 0px;
+    text-align: center;
+    padding: 20px;
+}
+#WhatWe_do, h3{
+    margin-top: 20px;
+}
+.desc-1,.desc-2,.desc-3{
+    display: none;
+    font-size: 12px;
+}
+.desc-1 h5,.desc-2 h5,.desc-3 h5{
+    font-weight: bold;
+    font-size: 12px;
+}
