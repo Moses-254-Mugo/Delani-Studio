@@ -126,10 +126,17 @@ input[type = "text"], input[type = "email"], #txtArea{
     
 }
 /* Style social media icon */
+section{
+    margin-top: 30px;
+}
 .media{
     display: flex;
     justify-content: center;
     flex-wrap: wrap;
     align-items: center;
     text-align: center;
+}
+footer{
+    margin-top: 20px;
+    font-size: 15px;
 }
