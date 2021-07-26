@@ -1,0 +1,142 @@
+body{
+    font-family: 'Times New Roman', Times, serif;
+}
+#home{
+    background: url("/assets/images/backgrounds/h_img.jpg") no-repeat;
+    background-size: cover;
+    background-position: center center;
+    padding: 60px 40px;
+    width: 100%;
+    height:auto;
+    color: #fff;
+}
+.info{
+    margin-top: 5%;
+    font-weight: bold;
+}
+.info p{
+    font-size: 10px;
+    color: #fff;
+}
+.icon_click{
+    margin-top: 15%;
+
+}
+/* Style About Container */
+#about{
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    align-items: center;
+    padding: 20px;
+}
+.about_us, h2, p{
+    color: #000;
+}
+/* Style Services container  */
+#services{
+    background: url("/assets/images/backgrounds/s_image.jpg")no-repeat;
+    background-size: cover;
+    background-position: center center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    padding: 20px;
+
+}
+#services h3, .p{
+    color: #fff;
+}
+#What_We_do{
+    margin-top: 0px;
+    text-align: center;
+    padding: 20px;
+}
+#WhatWe_do, h3{
+    margin-top: 20px;
+}
+.desc-1,.desc-2,.desc-3{
+    display: none;
+    font-size: 12px;
+}
+.desc-1 h5,.desc-2 h5,.desc-3 h5{
+    font-weight: bold;
+    font-size: 12px;
+}
+.thumbnail{
+    margin: 10px -23px ;
+    
+}
+.thumbnail img{
+    width: 80%;
+    height: auto;
+
+}
+.col-sm-3 img{
+    width: 85%;
+    height: auto;
+}
+.row{ 
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+}
+#project, #project2, #project3 ,#project4, #project5, #project6, #project7, #project8{
+    position: relative;
+    text-align: center;
+    color: #fff;
+    font-size: 40px;
+    font-weight: bold;
+}
+#prjName-1, #prjName-2, #prjName-3, #prjName-4, #prjName-5, #prjName-6, #prjName-7, #prjName-8{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    display: none;
+}
+#contact{
+    background: url("/assets/images/backgrounds/c_image.jpg") no-repeat;
+    background-size: cover;
+    background-position: center center;
+
+}
+/* Style contact Container */
+#contact h3{
+    color: #fff;
+}
+input[type = "text"], input[type = "email"], #txtArea{
+    opacity: 0.8;
+    background: transparent;
+    border: 2px solid #fff;
+    box-sizing: border-box;
+    outline: none;
+    margin: 5px;
+}
+#name::placeholder,#email::placeholder, #txtArea::placeholder{
+    color: #fff;
+    font-size: 19px;
+}
+.btn{
+    border: 2px solid #fff;
+    margin: 10px;
+    color: #fff;
+    
+}
+/* Style social media icon */
+section{
+    margin-top: 30px;
+}
+.media{
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    align-items: center;
+    text-align: center;
+}
+footer{
+    margin-top: 20px;
+    font-size: 15px;
+}
