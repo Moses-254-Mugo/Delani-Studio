@@ -1,10 +1,12 @@
+@import url('https://fonts.googleapis.com/css2?family=Playfair+Display&display=swap');
 body{
-    font-family: 'Times New Roman', Times, serif;
+    font-family: inherit;
 }
 #home{
-    background: url("./assets/images/backgrounds/h_img.jpg") no-repeat;
+    background: url("../images/backgrounds/h_img.jpg") no-repeat;
     background-size: cover;
     background-position: center center;
+    font-family: inherit;
     padding: 60px 40px;
     width: 100%;
     height:auto;
@@ -29,13 +31,14 @@ body{
     text-align: center;
     align-items: center;
     padding: 20px;
+    font-family: inherit;
 }
 .about_us, h2, p{
     color: #000;
 }
 /* Style Services container  */
 #services{
-    background: url("./assets/images/backgrounds/s_image.jpg")no-repeat;
+    background: url("../images/backgrounds/s_image.jpg")no-repeat;
     background-size: cover;
     background-position: center center;
     display: flex;
@@ -43,6 +46,7 @@ body{
     align-items: center;
     text-align: center;
     padding: 20px;
+    font-family: inherit;
 
 }
 #services h3, .p{
@@ -98,7 +102,7 @@ body{
     display: none;
 }
 #contact{
-    background: url("./assets/images/backgrounds/c_image.jpg") no-repeat;
+    background: url("../images/backgrounds/c_image.jpg") no-repeat;
     background-size: cover;
     background-position: center center;
 
